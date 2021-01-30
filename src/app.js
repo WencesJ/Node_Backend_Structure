@@ -10,7 +10,7 @@ const rateLimiter = require('express-rate-limiter');
 const compression = require('compression');
 const cors = require('cors');
 
-// ROUTERS
+// ROUTER
 const viewRoutes = require('./routes/viewRoutes');
 
 const globalErrorHandler = require('./Error/errorController');
